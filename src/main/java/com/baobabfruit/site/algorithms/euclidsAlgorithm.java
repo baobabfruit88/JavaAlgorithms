@@ -1,6 +1,12 @@
 package com.baobabfruit.site.algorithms;
 
 public class euclidsAlgorithm {
+    /**
+     * Given two integers, Euclid's algorithm will find its greatest common divisor, that has no remains.
+     * @param a
+     * @param b
+     * @return
+     */
     public static int euclidianNumber(int a, int b){
         int bigNumber = (a > b) ? a : b;
         int smallNumber = (a > b) ? b : a;
