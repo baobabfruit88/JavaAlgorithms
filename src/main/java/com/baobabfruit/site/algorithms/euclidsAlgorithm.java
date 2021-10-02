@@ -11,7 +11,6 @@ public class euclidsAlgorithm {
         int bigNumber = (a > b) ? a : b;
         int smallNumber = (a > b) ? b : a;
         int largestCommonDivisor = 0;
-
         while (true) {
             int remainder = bigNumber % smallNumber;
             if(remainder > 0){
