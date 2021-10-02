@@ -1,5 +1,6 @@
 package com.baobabfruit.site.algorithms;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class Main {
@@ -10,6 +11,8 @@ public class Main {
                 + eulerProblemOne(new int[]{3, 5},1000));
         System.out.println("The answer to Euler.Net problem two is : "
                 + eulerProblemTwo(4_000_000));
+        //System.out.println("The answer to Euler.Net problem three is : "
+        //        + eulerProblemThree(600851475143L));
     }
 
     public static int eulerProblemOne(int[] multiples, int lowerThenValue){
@@ -22,6 +25,10 @@ public class Main {
         ArrayList<Integer> fib = eulerProblemTwo.fibonacci(max);
         ArrayList<Integer> evenNumbers = eulerProblemTwo.extractEvenNumbers(fib);
         int answer = eulerProblemOne.sumOfArrayList(evenNumbers);
+        return answer;
+    }
+    public static Long eulerProblemThree(Long num){
+        Long answer = eulerProblemThree.largestPrime(num);
         return answer;
     }
 }
