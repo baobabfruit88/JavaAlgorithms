@@ -7,6 +7,7 @@ public class eulerProblemThree {
      * @param num
      * @return
      */
+    //TODO This has to be optimized, alot.
     public static Long largestPrime(Long num){
         for (Long i = num -1; i > 0; i--) {
             if(num % i == 0) {
