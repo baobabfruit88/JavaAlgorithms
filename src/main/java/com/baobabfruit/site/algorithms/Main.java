@@ -11,8 +11,11 @@ public class Main {
                 + eulerProblemOne(new int[]{3, 5},1000));
         System.out.println("The answer to Euler.Net problem two is : "
                 + eulerProblemTwo(4_000_000));
+        //TODO Run this after optimisation of problem three class.
         //System.out.println("The answer to Euler.Net problem three is : "
         //        + eulerProblemThree(600851475143L));
+        System.out.println("The answer to Euler.Net problem four is : "
+                + eulerProblemFour.largestPalindromeOfProduct(999,999));
     }
 
     public static int eulerProblemOne(int[] multiples, int lowerThenValue){
