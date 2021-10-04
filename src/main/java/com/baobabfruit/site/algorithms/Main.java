@@ -15,7 +15,7 @@ public class Main {
         //System.out.println("The answer to Euler.Net problem three is : "
         //        + eulerProblemThree(600851475143L));
         System.out.println("The answer to Euler.Net problem four is : "
-                + eulerProblemFour.largestPalindromeOfProduct(999,999));
+                + eulerProblemFour(999,999));
     }
 
     public static int eulerProblemOne(int[] multiples, int lowerThenValue){
@@ -32,6 +32,11 @@ public class Main {
     }
     public static Long eulerProblemThree(Long num){
         Long answer = eulerProblemThree.largestPrime(num);
+        return answer;
+    }
+
+    public static int eulerProblemFour(int a , int b){
+        int answer = eulerProblemFour.largestPalindromeOfProduct(a , b);
         return answer;
     }
 }
