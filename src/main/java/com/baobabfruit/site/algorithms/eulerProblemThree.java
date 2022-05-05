@@ -34,7 +34,7 @@ public class eulerProblemThree {
             return false;
         }
         else{
-            for (Long i = num -1; i > 2; i--) {
+            for (double i = Math.sqrt(num -1); i > 2; i--) {
                 if(num % i == 0){
                     return false;
                 }

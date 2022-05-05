@@ -10,7 +10,7 @@ public class eulerProblemFourTest {
         Assert.assertEquals(true,eulerProblemFour.isPalindrome(9009));
     }
     @Test
-    public void reverseIntTest(){
+    public void reverseStringTest(){
         Assert.assertEquals("shakespeare",eulerProblemFour.stringReverse("eraepsekahs"));
     }
     @Test
